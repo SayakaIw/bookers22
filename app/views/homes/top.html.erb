@@ -1,4 +1,18 @@
 <div class="container" style="height: 85vh">
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+  <div class="row mt-4">
+    <div class="mx-auto col-11 col-sm-10 col-lg-8 col-xl-6">
+      <h2 align="center"><i class="fa-solid fa-book"></i>  Welcome to My BOOKs  <i class="fa-solid fa-book-quran"></i></h2>
+      <p align="center">you can save the infomation about Books</p>
+      <p align="center">and make a note of the book you want to buy<i class="fa-solid fa-pen"></i></p>
+
+      <div class="btn-wrapper col-10 mx-auto">
+        <div class="row">
+          <%= link_to 'Log in', new_user_session_path, class: "btn btn-success btn-sm btn-block my-3" %>
+        </div>
+        <div class="row">
+          <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-info btn-sm btn-block" %>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
